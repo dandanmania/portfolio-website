@@ -10,13 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Cabin&family=Noto+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.production.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 <!-- Navigation -->
     <header>
-        <a href="index.html" class="left"><img class="logo" src="img/templogo.png" alt="Daniel's Logo"></a>
+        <a href="index.html" class="left">
+           <img class="logo" src="img/logobar.svg" alt="Daniel's Logo">
+        </a>
         <nav class="nav-links">
             <ul role="menubar">
                 <li role="presentation">
@@ -37,7 +40,7 @@
 
 <!-- Content -->
     <div class="content">
-        <img class="main-image" src="img/daniel_photo.jpg" alt="A photo of Daniel">
+        <img class="self-image" src="img/daniel_photo.jpg" alt="A photo of Daniel">
         <!-- Text About Me -->
         <ul>
             <li>
@@ -49,32 +52,34 @@
         </ul>
         
         <!-- Skills Table -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Skills</th>
-                    <th>Level of Expertise</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>Advanced</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>Intermediate</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Beginner</td>
-                </tr>
-                <tr>
-                    <td>Ruby</td>
-                    <td>Beginner</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skills</th>
+                        <th>Level of Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Ruby</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
 <!-- Footer -->
@@ -84,7 +89,6 @@
         <h2 class="find">Find me on</h2>
         <ul class="socials-links">
             <li><a target="_blank" href="https://github.com/dandanmania"><img class="slogo" src="img/github.svg" alt="github"></a></li>
-            <li><a target="_blank" href="https://twitter.com/"><img class="slogo" src="img/twitter.svg" alt="twitter"></a></li>
             <li><a target="_blank" href="https://www.linkedin.com/in/daniel-sinhoo-kim/"><img class="slogo" src="img/linkedin.svg" alt="linkedin"></a></li>
         </ul>
 
