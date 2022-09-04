@@ -220,10 +220,7 @@ header a {
 }
 
 .checkoutimg {
-  position: absolute !important;
   width: 25rem;
-  left: 49%;
-  top: 31rem;
   z-index: -1;
 }
 
