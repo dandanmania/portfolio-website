@@ -37,9 +37,49 @@
         </nav>
     </header>
 <!-- Contact Details -->
-    <div class="content">
-        <img class="contact-bg" src="./img/contact-bg.png" alt="">
-        <ul class="contact-list">
+    <div class="contact-content">
+        <div class="outer">
+                <div class="foil">
+                    <div class="card">
+                        <div class="contact-bg">
+                            <img src="./img/DK_logo_proto2_butgold.png" alt="Daniel's Logo in Gold">
+                        </div>
+                        <div class="contact-list">
+                        <ul>
+                            <li>
+                                <h1>Contact me here:</h1>
+                            </li>
+                            <li>
+                                Email
+                                <br />
+                            </li>
+                            <li>
+                                <a class="email" href="mailto:danielkimus@gmail.com"> danielkimus@gmail.com </a>
+                                <br />
+                            </li>
+                            <br />
+                            <li>
+                                Telephone
+                                <br />
+                            </li>
+                            <li>
+                                <a aria-label="Call 1-619-802-6936 to get a hold of me" href="tel:+16198026936">+1 619-802-6936</a>
+                            </li>
+                            <li>
+                                <p></p>
+                            </li>
+                            <li>
+                                <div class="contact-socials">
+                                    <a target="_blank" href="https://www.linkedin.com/in/daniel-sinhoo-kim/"><img class="slogo" src="img/linkedin.svg" alt="linkedin"></a>
+                                    <a target="_blank" href="https://github.com/dandanmania"><img class="slogo gh" src="img/github.svg" alt="github"></a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                        </div>
+                    </div>
+                </div>
+        <ul class="contact-extra">
             <li>
                 <h1>Contact me here:</h1>
             </li>
@@ -48,7 +88,7 @@
                 <br />
             </li>
             <li>
-                <a href="mailto:danielkimus@gmail.com"> danielkimus@gmail.com </a>
+                <a class="email" href="mailto:danielkimus@gmail.com"> danielkimus@gmail.com </a>
                 <br />
             </li>
             <li>
@@ -62,38 +102,14 @@
                 <p></p>
             </li>
             <li>
-                <a class="email" href="mailto:danielkimus@gmail.com">Email Me!</a>
+                <div class="extra-socials">
+                    <a target="_blank" href="https://www.linkedin.com/in/daniel-sinhoo-kim/"><img class="slogo" src="img/linkedin.svg" alt="linkedin"></a>
+                    <a target="_blank" href="https://github.com/dandanmania"><img class="slogo" src="img/github.svg" alt="github"></a>
+                </div>
             </li>
         </ul>
-
-    <!-- Contact Form -->
-        <form method="post" class="contact-form">
-            <h2 class="message">Leave a Message</h2>
-            Required*
-            <label class="standard-label" for="contact-email">E-mail*: </label>
-            <input type="email" id="contact-email" class="email" required>
-            <p></p>
-            <label class="standard-label" for="contact-phone-number">Telephone: </label>
-            <input type="tel" id="contact-phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" class="phone">
-            <p></p>
-            <label class="standard-label" for="contact-messsage">Message*: </label>
-            <textarea id="contact-messsage" maxlength="240" cols="30" rows="10" required class="message"></textarea>
-            <p></p>
-            <button>Send Message</button>
-            
-        </form>
     </div>
-<!-- Footer -->
-    <footer class="socials">
-        <img src="img/cloudy.svg" alt="" class="cloudy">
-        <img src="img/cloudy.svg" alt="" class="cloudy_two">
-        <h2 class="find">Find me on</h2>
-        <ul class="socials-links">
-            <li><a target="_blank" href="https://www.linkedin.com/in/daniel-sinhoo-kim/"><img class="slogo" src="img/linkedin.svg" alt="linkedin"></a></li>
-            <li><a target="_blank" href="https://github.com/dandanmania"><img class="slogo" src="img/github.svg" alt="github"></a></li>
-        </ul>
-
-    </footer>
+    </div>
     
     <script src="js/tota11y.min.js"></script>
 </body>
